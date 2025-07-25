@@ -29,9 +29,7 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
         },
-        theme: {
-         // customCss: './src/css/custom.css',
-        },
+        theme: {},
       } satisfies Preset.Options,
     ],
   ],
@@ -41,11 +39,11 @@ const config: Config = {
       title: 'OpenPSG Docs',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {type: 'docSidebar', sidebarId: 'mainSidebar', position: 'left', label: 'Docs'},
-        {href: 'https://github.com/OpenPSG/OpenPSG', label: 'GitHub', position: 'right'},
+        {href: 'https://github.com/OpenPSG/docs', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {
