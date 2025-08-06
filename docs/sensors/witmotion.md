@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # WitMotion
 
 WitMotion Shenzhen Co., Ltd., founded in 2015 and headquartered in Shenzhen, 
