@@ -1,4 +1,4 @@
-# WitMotion
+# WitMotion IMU
 
 This driver supports WitMotion Bluetooth Low Energy (BLE) inertial measurement 
 units (IMU).
