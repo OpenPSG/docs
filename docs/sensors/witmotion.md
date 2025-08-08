@@ -28,15 +28,6 @@ The WT9011DCL is fully supported by OpenPSG as an actigraphy sensor.
   <figcaption>PCB showing Bluetooth SoC and accelerometer/magnetometers.</figcaption>
 </figure>
 
-### Issues
-
-#### Bluetooth Connection
-
-The WT9011DCL Bluetooth connection handshake can be unreliable and may lead to 
-connection failures. Retrying the connection will resolve the issue. If still 
-not working, try resetting the device. This does not effect the reliability of 
-the connection once it is established.
-
 ### Mounting
 
 #### Limb Movements
@@ -55,3 +46,20 @@ important.
 For trunk position, the WT9011DCL can be secured with medical, or kinesiology 
 tape to the upper chest or abdomen. The WT9011DCL should be mounted in an upright 
 position with the label facing outwards.
+
+### Issues
+
+#### Bluetooth Connection
+
+The WT9011DCL Bluetooth connection handshake can be unreliable and may lead to 
+connection failures. Retrying the connection will resolve the issue. If still 
+not working, try resetting the device. This does not effect the reliability of 
+the connection once it is established.
+
+#### Device Names
+
+All WT9011DCL devices have the same Bluetooth name, which can make it difficult
+to distinguish between multiple devices. You can change the device name using 
+the official WitMotion Android app. The App will claim it is restarting the 
+device, but it will not actually do so (you'll have to manually power it off 
+and on again).
